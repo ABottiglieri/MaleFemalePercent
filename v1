@@ -1,0 +1,7 @@
+males=int(input("Enter number of males:" ))
+females=int(input("Enter number of females:" ))
+total=(males+females)
+male_percent=round((males*100)/total)
+female_percent=(females*100)//total
+print("Percent males: %s" % male_percent, '%', sep='')
+print("Percent females: %s" % female_percent, '%', sep='')
